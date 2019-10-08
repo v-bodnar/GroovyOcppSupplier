@@ -1,0 +1,14 @@
+plugins {
+    id 'groovy'
+}
+
+allprojects {
+    repositories {
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+    }
+}
+
+dependencies {
+    implementation 'com.github.v-bodnar:ocpp-server:master-SNAPSHOT'
+}
